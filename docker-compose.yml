@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=funkydb
+     
+    volumes:
+      - mongo_data:/data/db
+    ports: 
+      - 27017:27017
+        
+        
+volumes: 
+  mongo_data: 
+    

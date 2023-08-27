@@ -1,0 +1,17 @@
+{
+  "name": "time-logger",
+  "version": "1.0.0",
+  "description": "Records the time and date everytime someone visits the webpage.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Arzob",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.5"
+  }
+}
